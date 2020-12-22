@@ -24,6 +24,7 @@ If, for any reason, its not possible to open the file, print the error message E
 
 where <file> is the name of the file
 If the file contains an invalid instruction, print the error message L<line_number>: unknown instruction <opcode>, followed by a new line, and exit with the status EXIT_FAILURE
+
 where is the line number where the instruction appears.
 Line numbers always start at 1
 The monty program runs the bytecodes line by line and stop if either:
