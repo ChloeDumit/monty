@@ -1,5 +1,5 @@
 #include "monty.h"
-
+var_1 vari;
 #define TOKEN_DELIM " \t\n\r"
 
 
