@@ -10,13 +10,14 @@
 void pint(stack_t **stack, unsigned int line_number)
 {
 
+	(void)line_number;
 
-	if (*stack == NULL)
+	if (*stack == NULL || stack == NULL)
 	{
 		fprintf(stderr, "L%u: can't pint, stack empty", line_number);
 		f_list(vari.mystack);
 		fclose(vari.fil);
 		exit(EXIT_FAILURE);
 	}
-	printf("%d\n", (*stack)->n);
+	printf("%i\n", (*stack)->n);
 }

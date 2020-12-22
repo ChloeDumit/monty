@@ -70,4 +70,8 @@ void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 int _atoi(char *str);
 void add(stack_t **stack, unsigned int line_number);
+void sub(stack_t **stack, unsigned int line_number);
+void multi(stack_t **stack, unsigned int line_number);
+void division(stack_t **stack, unsigned int line_number);
+void module(stack_t **stack, unsigned int line_number);
 #endif
