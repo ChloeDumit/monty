@@ -29,5 +29,4 @@ it executed properly every line of the file
 it finds an error in the file
 an error occured
 If you cant malloc anymore, print the error message Error: malloc failed, followed by a new line, and exit with status EXIT_FAILURE.
-You have to use malloc and free and are not allowed to use any other function from man malloc (realloc, calloc, )
-
+You have to use malloc and free and are not allowed to use any other function from man malloc (realloc, calloc, ).
