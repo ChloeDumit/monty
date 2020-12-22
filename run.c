@@ -21,6 +21,8 @@ void run(char (*refer)[80])
 		{"nop", nop},
 		{"swap", swap},
 		{"add", add},
+		{"sub, sub},
+		{"multi", multi},
 		{NULL, NULL},
 	};
 	for (j = 0; j < 7; j++)
