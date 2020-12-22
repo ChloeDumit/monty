@@ -47,6 +47,6 @@ void run(char (*refer)[80])
 			f_list(vari.mystack);
 			exit(EXIT_FAILURE);
 		}
-		
+
 	}
 }
