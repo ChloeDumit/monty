@@ -44,5 +44,9 @@ void run(char (*refer)[80])
 			f_list(vari.mystack);
 			exit(EXIT_FAILURE);
 		}
+		else if (refer[0][0] == '#')
+		{
+			nop(&(vari.mystack), vari.line_number);
+		}
 	}
 }
